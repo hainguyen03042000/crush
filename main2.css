@@ -41,17 +41,17 @@ body{
   
   h1 {
     font-family: 'Love Ya Like A Sister', cursive;
-    font-size: 7em;
+    font-size: 30px;
     font-weight: 50px;
     text-align: center;
     margin-top: 2em;
     font-weight: 600;
     position: fixed;
     top: 50%;
-    left: 0;
+    left: 50;
     width: 100%;
     text-align: center;
-    transform:translateY(-200%);
+    transform:translateY(-50%);
     
   }
   
