@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Dancing Script';
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/love\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    border: 3px solid black;
+    border-radius: 30px;
+
+}
+
+.header {
+    font-size: 60px;
+    font-weight: 500;
+    color: crimson;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button {
+    padding: 16px 25px;
+    font-size: 25px;
+    border-radius: 18px;
+    font-family: 'Dancing Script';
+    background-color: crimson;
+    color: azure;
+   
+}
+
+.yes {
+    position: absolute;
+    top: 70%;
+    right: 30vw;
+    transform: translateX(50%)
+}
+
+.no {
+    position: absolute;
+    top: 70%;
+    left: 30vw;
+    transform: translateX(-50%);
+    transition: all 0.5s;
+    z-index: 20;
+}
