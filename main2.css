@@ -1,7 +1,6 @@
 body{
     overflow: hidden;
     margin: 0;
-    background-color: white;
   }
   .container{
     width: 100%;
@@ -10,13 +9,13 @@ body{
   h1{
     position: fixed;
     top: 50%;
-    left: 0;
+    left: -7%;
     width: 100%;
     text-align: center;
     transform:translateY(-50%);
     font-family: 'Love Ya Like A Sister', cursive;
-    font-size: 40px;
-    color: #c70012; 
+    font-size: 50px;
+    color: #10c534; 
     padding: 0 20px;
   }
   @media (min-width:1200px){
